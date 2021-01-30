@@ -16,4 +16,85 @@
 
 ## Основные библотеки
 
+* torch
+* torch.nn
+* torchvision
+* numpy
+* pandas
+* matplotlib
+* sklearn
 
+
+## План семинаров
+
+1. Знакомство с **pytorch**
+  - **numpy, pytorch**
+  - **Первая нейросеть** (предсказание на датасете MNIST)
+
+2. Сверточные сети и их параметры
+  - Параметры сверточных сетей
+    - kernel_size
+    - **stride**
+    - **padding**
+    - **dilation**
+  - **MaxPooling**
+  - **ReLU**
+  - Простая архитектура **CNN** на датасете CIFAR-10
+  - Визуализация параметров сети
+  
+3. Классификация изображений
+  - **VGG** сеть
+  - использование **Dropout**
+  - **Аугментация**
+  
+4. Методы оптимизации
+  - **SGD**
+  - **SGD with momentum**
+  - **Adagrad** (в том числе своими руками)
+  - **RMSprop**
+  - **Adam**
+  - **Сравнение методов оптимизации**
+  
+5. Fine-tuning
+  - **ResNet** своими руками
+  - предобученный **ResNet-18**
+  - Сравнение сетей
+  - **Adversarial attacks**
+  
+6. **Semantic segmentation**
+  - **IoU**
+  - **U-Net**
+  - Интерпретация
+  
+ 7. **Детекция изображений** на датасете Penn-Fudan
+  - **R-CNN**
+  - **Fast R-CNN**
+  
+ 8. **Автоэнкодеры** (на примере MNIST)
+  - Автоэнкодер своими руками
+  - Структура и интерпретация латентного пространства
+  - **Semi-supervised learning** (with Random Forest Classifier)
+  
+ 9. **Skip-gram Word2vec**
+  - **word2vec**
+    - **Pre-processing**
+    - **Subsampling**
+    - Making batches
+    - validation
+  - **SkipGram model**
+  - **visualizing word vectors**
+  
+  10. **RNN, LSTM**
+    - **LSTM** своими руками, включая токенизацию и создание мини-батчей
+    - Подбор оптимальных гиперпараметров
+  
+  11. **Transformers**
+    - **Transformer своими руками**
+    - **MultiHead Self-Attention**
+    - **LabelEncoder**
+    - **LSTMEncoder, LSTMDecoder**
+    - Сравнение моделей для задачи NMT
+    - **BERT**
+    - **BPE**
+    - **GPT**
+  
