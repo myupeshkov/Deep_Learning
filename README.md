@@ -84,17 +84,17 @@
   - **SkipGram model**
   - **visualizing word vectors**
   
-  10. **RNN, LSTM**
-    - **LSTM** своими руками, включая токенизацию и создание мини-батчей
-    - Подбор оптимальных гиперпараметров
+ 10. **RNN, LSTM**
+   - **LSTM** своими руками, включая токенизацию и создание мини-батчей
+   - Подбор оптимальных гиперпараметров
   
-  11. **Transformers**
-    - **Transformer своими руками**
-    - **MultiHead Self-Attention**
-    - **LabelEncoder**
-    - **LSTMEncoder, LSTMDecoder**
-    - Сравнение моделей для задачи NMT
-    - **BERT**
-    - **BPE**
-    - **GPT**
+ 11. **Transformers**
+   - **Transformer своими руками**
+   - **MultiHead Self-Attention**
+   - **LabelEncoder**
+   - **LSTMEncoder, LSTMDecoder**
+   - Сравнение моделей для задачи NMT
+   - **BERT**
+   - **BPE**
+   - **GPT**
   
